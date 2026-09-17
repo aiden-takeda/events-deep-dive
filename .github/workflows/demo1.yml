@@ -8,7 +8,7 @@ on:
       - "dev-*"
       - "feat/**"
     paths-ignore:
-      - ".github/workflows/*"
+      - ".github/workflows/*" # no event if change is in this folder
   workflow_dispatch:
   push:
     branches:
